@@ -1,0 +1,647 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+.read-more {
+    align-items: center;
+}
+
+.close-button {
+    display: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16.5px;
+}
+
+p span {
+    display: block;
+}
+
+
+
+.read-more {
+    padding: 13px 25px;
+    background-color: #A17B3F;
+    border-radius: 50px;
+    display: flex;
+    gap: 5px;
+    transition: gap 0.4s ease, background-color 0.4s ease;
+    border: none;
+    text-decoration: none;
+    color: white;
+    width: max-content;
+    font-weight: 500;
+}
+
+.read-more2 {
+    padding: 13px 25px;
+    background-color: transparent;
+    border-radius: 50px;
+    display: flex;
+    gap: 5px;
+    transition: gap 0.4s ease, background-color 0.4s ease;
+    border: none;
+    text-decoration: none;
+    color: #A17B3F;
+    border: 1px solid #A17B3F;
+    font-weight: 500;
+    display: inline;
+    transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+
+.read-more:hover {
+    gap: 15px;
+}
+
+.read-more2:hover {
+    background-color: #A17B3F;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.nav-bar-logo {
+    width: auto;
+    height: 50px;
+}
+
+.move-to-georgia-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 1fr;
+    background-color: #032033;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+.move-to-georgia {
+    width: 90%;
+    max-width: 1440px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap:10px;
+}
+
+.read-more-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+    height: min-content;
+}
+
+.georgia-p {
+    font-size: 17.5px;
+    color: #71736B;
+    font-weight: 300;
+    line-height: calc(1.2em + 6px);
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.to-georgia-text {
+    width: 45%;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px;
+    gap: 20px;
+    height: 560px;
+}
+
+.georgia-img-div {
+    width: 50%;
+    height: auto;    
+    border-radius: 15px;
+    background-image: url("../assets/georgia.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+
+.georgia-h1 {
+    font-size: 58px;
+    font-weight: 500;
+    color: #0A3354;
+    letter-spacing: 1px;
+    line-height: calc(1.2em - 2px)
+}
+
+.how-to-move-to-georgia {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 85px;
+    width: 85%;
+}
+
+.background-how-to-move {
+    width: 100%;
+    height: auto;
+    background-color:#ecedeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.after-dropdown-nav-bar {
+    display: none;
+}
+
+.how-to-move-div {
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: center;
+    max-width: 1200px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.how-to-move-flex-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    max-width: 1200px;
+}
+
+.img-div-1 {
+    width: 50%;
+    background-image: url("../assets/1.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-div-2 {
+    width: 50%;
+    background-image: url("../assets/1.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.how-to-move-text-div-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+
+.how-to-move-text-div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+
+.how-to-move-h1 {
+    color: #0A3354;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.how-to-move-p {
+    color: #71736B;
+    line-height: calc(1.2em + 6px);
+    font-size: 18.5px;
+}
+
+.why-to-move-to-georgia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px 40px;
+}
+
+.why-to-move-flex-div {
+    width: 75%;
+    color: #0A3354;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18.5px;
+    max-width: 1200px;
+}
+
+.why-to-move-h1 {
+    font-weight: 400;
+}
+
+.why-to-move-p {
+    font-weight: 400;
+    color: #71736B;
+}
+
+.legal-assist-inner-p span {
+    display: inline;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+
+.legal-assistance {
+    background-color:#ecedeb;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    padding: 60px 0px 60px;
+}
+
+.legal-assist-inner-flex {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap:20px;
+}
+
+.legal-assist-img-div {
+    width: 50%;
+    background-image: url("../assets/1.jpg");
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.legal-assistance p {
+    font-weight: 400;
+}
+
+.legal-assist-flex-div {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    max-width: 1200px;
+}
+
+
+.legal-assist-inner-p {
+    color: #71736B;
+}
+
+.work-times-text a {
+    color: #ADB2B5;
+}
+
+.work-times-text a:hover {
+    text-decoration: underline;
+}
+
+
+.legal-assist-p {
+    width: 75%;
+    color: #71736B;
+    max-width: 1200px;
+    font-size: 17px;
+}
+
+.legal-assist-h1 {
+    color: #0A3354;
+    font-weight: 400;
+}
+
+
+
+.dropdown-nav-bar {
+    display: none;
+}
+
+.nav-bar-div {
+    height: 80px;
+}
+
+@media (max-width: 1199px ) and (min-width: 744px) {
+
+    .svg-div-social {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .svg-div-social1 {
+        justify-content: start;
+    }
+
+    .nav-bar-div {
+        flex-direction: column;
+        justify-content: start;
+        gap: 40px;
+    }
+
+    .nav-bar-items {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: inline;
+    }
+
+    .close-button {
+        display: none;
+    }
+
+    .after-dropdown-nav-bar {
+        display: none;
+        width: 95%;
+        height: min-content;
+    }
+
+    .contact-button {
+        width: 100%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .dropdown-nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+    
+
+    .georgia-h1 {
+        font-size: 32px;
+    }
+
+    .to-georgia-text {
+        height: min-content;
+        gap: 24px;
+        padding: 32px;
+    }
+
+    .move-to-georgia-div {
+        height: min-content;
+        padding-bottom: 50px;
+    }
+
+
+    .move-to-georgia {
+        height: min-content;
+    }
+
+    .how-to-move-to-georgia {
+        width: 90%;
+    }
+
+    .why-to-move-flex-div {
+        width: 90%;
+    }
+
+    .legal-assist-flex-div, .legal-assist-p {
+        width: 90%;
+    }
+
+    .how-to-move-p, .why-to-move-p, .legal-assist-p, .legal-assist-inner-p {
+        font-size: 15px;
+    }
+
+    .how-to-move-p, .legal-assist-inner-p {
+        text-align: justify;
+    }
+
+    .how-to-move-h1, .why-to-move-h1, .legal-assist-h1 {
+        font-size: 32px;
+    }
+    
+    .read-more-div {
+        flex-direction: column;
+        justify-content: start;
+        box-sizing: border-box;
+    }
+
+    .read-more {
+        width: fit-content;
+    }
+
+    .read-more2 {
+        width: fit-content;
+    }
+
+    .georgia-img-div {
+        background-position: left;
+    }
+
+}
+
+@media (max-width: 743px) {
+
+    .georgia-h1 {
+        font-size: 32px;
+    }
+
+    .georgia-p {
+        font-size: 15px;
+    }
+
+    .to-georgia-text {
+        height: min-content;
+        gap: 24px;
+        padding: 32px;
+    }
+
+    .how-to-move-to-georgia {
+        width: 90%;
+    }
+
+    .why-to-move-flex-div {
+        width: 90%;
+    }
+
+    .legal-assist-flex-div, .legal-assist-p {
+        width: 90%;
+    }
+
+    .how-to-move-p, .why-to-move-p, .legal-assist-p, .legal-assist-inner-p {
+        font-size: 15px;
+    }
+
+    .how-to-move-p, .legal-assist-inner-p {
+        text-align: justify;
+    }
+
+    .how-to-move-h1, .why-to-move-h1, .legal-assist-h1 {
+        font-size: 28px;
+    }
+    
+    .read-more-div {
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .move-to-georgia-div {
+        display: flex;
+        flex-direction: column;
+        padding: 110px 0 30px;
+        box-sizing: border-box;
+    }
+
+
+    .move-to-georgia {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        gap: 20px;
+    }
+
+    .to-georgia-text, .georgia-img-div {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .to-georgia-text {
+        width: 100%;
+        height: min-content;
+        padding: 32px;
+        box-sizing: border-box;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .georgia-img-div {
+        width: 100%;
+        min-height: 240px;
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .georgia-p {
+        font-size: 15px;
+    }
+
+    .read-more {
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    .read-more2 {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .how-to-move-flex-div {
+        flex-direction: column;
+        height: 448px;
+    }
+    
+    .how-to-move-text-div-1, .how-to-move-text-div-2 {
+        width: 100%;
+        height: min-content;
+    }
+
+    .how-to-move-flex-div:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
+    .how-to-move-p {
+        height: min-content;
+    }
+
+    .img-div-1, .img-div-2 {
+        width: 100%;
+        height: 50%;
+        background-position: center;
+        min-height: 200px;
+    }
+
+    .legal-assist-flex-div {
+        flex-direction: column;
+        min-height: 448px;
+    }
+
+    .legal-assist-inner-flex {
+        width: 100%;
+        height: min-content;
+    }
+
+    .legal-assist-img-div {
+        width: 100%;
+        height: 50%;
+        background-position: center;
+        min-height: 200px;
+    }
+
+    .legal-assistance {
+        height: min-content;
+    }
+
+    .background-how-to-move {
+        height: min-content;
+    }
+
+    .how-to-move-to-georgia {
+        height: min-content;
+    }
+
+    .how-to-move-flex-div {
+        height: min-content;
+    }
+
+    .after-dropdown-nav-bar {
+        box-sizing: border-box;
+    }
+
+}
+

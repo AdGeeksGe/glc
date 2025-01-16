@@ -1,0 +1,432 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    color: #0A3354;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.move-to-georgia-div {
+    width: 100%;
+}
+
+.to-georgia-text {
+    gap: 24px;
+    height: min-content;
+    justify-content: flex-start;
+    height: 560px;
+}
+
+.move-to-georgia {
+    height: min-content;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: min-content;
+    gap: 50px;
+    width: 100%;
+    background-color: #ECEDEB;
+}
+
+.about-first-flex {
+    max-width: 1200px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.about-first-flex h1 {
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.about-first-flex p {
+    font-size: 18.5px;
+    color: #71736B;
+}
+
+.about-img-div {
+    width: 50%;
+    height: auto;    
+    border-radius: 15px;
+    background-image: url("../assets/skyskrapers.webp");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.read-more, .read-more2 {
+    font-size: 14px;
+}
+
+p > a {
+    text-decoration: underline;
+    color: #0A3354;
+}
+
+.about-second-flex {
+    height: min-content;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+
+.second-flex-text-div {
+    display: flex;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.second-flex-text-div h1 {
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.second-flex-text-div p {
+    font-size: 18.5px;
+    color: #71736B;
+}
+
+.second-flex-inner-flex {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    padding-bottom: 70px;
+}
+
+.about-second-flex-cards {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #F6F6F6;
+    gap: 16px;
+    border: 1px solid #899DAD;
+    border-radius: 12px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.after-hero-svg-div {
+    background-color: #ECEDEB;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+}
+
+.about-second-flex-cards h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.about-second-flex-cards p {
+    height: min-content;
+}
+
+.better-lifestyle-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: min-content;
+    max-width: 1200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.lifestyle-first-flex {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    gap: 30px;    
+}
+
+.lifestyle-text-div {
+    width: 50%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+.lifestyle-first-flex h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.lifestyle-first-flex p {
+    font-size: 18.5px;
+    color: #71736B;
+}
+
+.lifestyle-img-div {
+    background-image: url(../assets/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.lifestyle-second-flex {
+    height: min-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lifestyle-second-flex h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.lifestyle-text-div2 p {
+    color: #71736B;
+    font-size: 18.5px;
+}
+
+.lifestyle-text-div2 {
+    height: min-content;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lifestyle-button-div {
+    height: min-content;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+
+@media (max-width: 1199px) and (min-width: 744px) {
+    
+    .about-first-flex {
+        width: 90%;
+    }
+
+    .about-first-flex p {
+        font-size: 16px;
+    }
+
+    .about-second-flex {
+        width: 90%;
+    }
+
+    .second-flex-inner-flex {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 25px;
+        padding-bottom: 10px;
+    }
+
+    .about-second-flex-cards {
+        width: 48%;
+        box-sizing: border-box;
+    }   
+
+
+    .pp {
+        margin-top: 20px;
+    }
+
+    .lifestyle-first-flex {
+        width: 90%;
+    }
+
+    .lifestyle-second-flex {
+        width: 90%;
+    }
+
+    .about-first-flex p {
+        font-size: 16px;
+    }
+
+    .lifestyle-first-flex {
+        flex-direction: column;
+    }
+
+    .second-flex-text-div p {
+        font-size: 16px;
+    }
+
+    .lifestyle-text-div p {
+        font-size: 16px;
+    }
+
+    .lifestyle-second-flex p {
+        font-size: 16px;
+    }
+
+    .lifestyle-text-div h1{
+        text-align: left;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .lifestyle-first-flex {
+        flex-direction: row;
+    }
+
+    .georgia-p {
+        font-size: 16px;
+    }
+
+    .about-first-flex h1 {
+        font-size: 28px;
+    }
+
+    .second-flex-text-div h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+}
+
+@media (max-width: 743px) {
+    .about-first-flex, .about-second-flex, .lifestyle-first-flex, .lifestyle-second-flex{
+        width: 90%;
+    }
+
+    .about-first-flex p {
+        font-size: 16px;
+    }
+
+    .lifestyle-first-flex {
+        flex-direction: column;
+    }
+
+    .second-flex-text-div p {
+        font-size: 16px;
+    }
+
+    .lifestyle-text-div p {
+        font-size: 16px;
+    }
+
+    .lifestyle-second-flex p {
+        font-size: 16px;
+    }
+
+    .lifestyle-second-flex h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .second-flex-inner-flex {
+        display: flex;
+        flex-flow: column;
+        gap: 20px;
+        padding-bottom: 10px;
+    }
+
+    .after-hero-svg-div {
+        padding: 10px;
+    }
+
+    .about-second-flex-cards {
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+        flex-direction: row;
+    }  
+
+
+    .lifestyle-first-flex {
+        flex-direction: column;
+    }
+    .lifestyle-img-div {
+        height: 250px;
+        width: 100%;
+    }
+
+    .lifestyle-text-div {
+        height: 1fr;
+        width: 100%;
+    }
+
+    .lifestyle-text-div h1{
+        text-align: left;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .about-img-div {
+        width: 100%;
+        height: 240px;
+    }
+
+    .georgia-p {
+        font-size: 16px;
+    }
+
+    .about-first-flex h1 {
+        font-size: 28px;
+    }
+
+    .second-flex-text-div h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .georgia-p {
+        font-size: 16px;
+    }
+
+    .card-text{
+        height: min-content;
+        display: flex;
+        flex-direction: column;        
+        gap: 10px;
+        width: fit-content;
+    }
+
+    .after-hero-svg-div {
+        width: 76px;
+    }
+
+    .lifestyle-button-div{
+        gap: 5px;
+    }
+
+
+
+}

@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #021725;
+    color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", serif;
+}
+
+h1 {
+    font-size: 62px;
+    max-width: 700px;
+    text-align: center;
+    line-height: 60px;
+}
+
+p {
+    color: #71736B;
+    font-size: 18.5px;
+}
+
+.container-thanks {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.glc-logo-div {
+    width: 234px;
+    height: 48px;
+}
+
+.message-sent-div {
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.message-sent-div img {
+    width: 96px;
+    height: 96px;
+}
+
+.thank-you-message-div {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    gap: 40px;
+}
+
+.mega-div {
+    max-width: 1200px;
+    height: min-content;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 0;
+}
+
+.return-button {
+    background-color: #A17B3F;
+    padding: 12px 24px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.return-button-div {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
+
+.return-button:hover {
+    background-color: transparent;
+    border: 1px solid #A17B3F;
+}
+
+
+
+@media (max-width: 1200px) {
+    .message-sent-div h1 {
+        font-size: 32px;
+    }
+    
+    .message-sent-div img {
+        width: 62px;
+        height: 62px;
+      }
+}
