@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .nav-bar {
     width: 95%;
     display: flex;
@@ -54,7 +59,7 @@
 }
 
 .nav-bar-div {
-    color: white;
+    color: white !important;
     background-color: #021725;
     display: flex;
     justify-content: center;

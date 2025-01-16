@@ -9,6 +9,11 @@ body{
     font-weight: 400;
 }
 
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
 .read-more {
     align-items: center;
 }
@@ -16,11 +21,6 @@ body{
 .close-button {
     display: none;
     margin-right: 5px;
-    cursor: pointer;
-}
-
-.hamburger-menu {
-    display: none;
     cursor: pointer;
 }
 
