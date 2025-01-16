@@ -21,4 +21,5 @@
 
     $legal_assist_p1 = "Georgia is more than a place to live; it’s a place to build your future. The country’s welcoming environment, straightforward systems, and incredible opportunities make it an ideal choice for those seeking a fresh start or a new adventure. Moving to Georgia means not only changing your address but also embracing a new lifestyle that prioritizes community, growth, and discovery.";
     $legal_assist_p2 = "If you’re ready to take the first step toward moving to Georgia, Georgia Business and Residential Law is here to help. With their guidance and expertise, your relocation will be efficient and rewarding, allowing you to enjoy everything this extraordinary country has to offer. Begin your journey to a brighter future in Georgia today.";
+
 ?>
