@@ -220,7 +220,7 @@ p span {
 
 .img-div-1 {
     width: 50%;
-    background-image: url("../assets/1.jpg");
+    background-image: url("../assets/Tax-in-Georgia.jpg");
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -313,7 +313,7 @@ p span {
 
 .legal-assist-img-div {
     width: 50%;
-    background-image: url("../assets/1.jpg");
+    background-image: url("../assets/FLLP_legal_affairs_work.png");
     border-radius: 15px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -356,8 +356,6 @@ p span {
     color: #0A3354;
     font-weight: 400;
 }
-
-
 
 .dropdown-nav-bar {
     display: none;

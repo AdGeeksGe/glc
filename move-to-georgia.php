@@ -9,19 +9,20 @@
     <?php
         include './components/nav-bar.php';
         renderNavBar();  
+        include './variables/move-to-georgia.php'
     ?>
 
     <div class="container">
         <div class="hero-img-div">
             <div data-aos="fade-up"  class="hero-flex-div">
-                <h1 class="hero-h1"><?php echo  ?></h1>
-                <p class="hero-p"><?php echo  ?></p>
+                <h1 class="hero-h1"><?php echo  $hero_h1?></h1>
+                <p class="hero-p"><?php echo  $hero_p?></p>
             </div>
         </div>
 
         <div data-aos="fade-up" class="after-hero-text-div">
-            <h1><?php echo  ?></h1>
-            <p><?php echo  ?></p>
+            <h1><?php echo  $after_hero_h1?></h1>
+            <p><?php echo  $after_hero_p?></p>
         </div>
 
         <div class="after-hero-flex-div">
@@ -34,8 +35,8 @@
                     </svg>
                 </div>
                 <div class="inner-flexy">
-                    <h3><?php echo  ?></h3>
-                    <p><?php echo  ?></p>
+                    <h3><?php echo  $inner_flexy_h3_1?></h3>
+                    <p><?php echo  $inner_flexy_p_1?></p>
                 </div>
             </div>
             <div data-aos="fade-up" class="after-hero-cards">
@@ -47,8 +48,8 @@
                     </svg>
                 </div>
                 <div class="inner-flexy">
-                    <h3><?php echo  ?></h3>
-                    <p><?php echo  ?></p>
+                    <h3><?php echo  $inner_flexy_h3_2?></h3>
+                    <p><?php echo  $inner_flexy_p_2?></p>
                 </div>
             </div>
             <div data-aos="fade-up" class="after-hero-cards">
@@ -60,8 +61,8 @@
                     </svg>
                 </div>
                 <div class="inner-flexy">
-                    <h3><?php echo  ?></h3>
-                    <p><?php echo  ?></p>
+                    <h3><?php echo  $inner_flexy_h3_3?></h3>
+                    <p><?php echo  $inner_flexy_p_3?></p>
                 </div>
             </div>
             <div data-aos="fade-up" class="after-hero-cards">
@@ -73,8 +74,8 @@
                     </svg>
                 </div>
                 <div class="inner-flexy">
-                    <h3><?php echo  ?></h3>
-                    <p><?php echo  ?></p>
+                    <h3><?php echo  $inner_flexy_h3_4?></h3>
+                    <p><?php echo  $inner_flexy_p_4?></p>
                 </div>
             </div>
             <div data-aos="fade-up" class="after-hero-cards">
@@ -86,8 +87,8 @@
                     </svg>
                 </div>
                 <div class="inner-flexy">
-                    <h3><?php echo  ?></h3>
-                    <p><?php echo  ?></p>
+                    <h3><?php echo  $inner_flexy_h3_5?></h3>
+                    <p><?php echo  $inner_flexy_p_5?></p>
                 </div>
             </div>
         </div>
